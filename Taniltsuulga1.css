@@ -1,0 +1,42 @@
+.Taniltsuulga1{
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+}
+.Tan1{
+    display: grid;
+    grid-template-rows: 20% auto 10% ;
+    gap: 20px;
+}
+.Ten1{
+    display: grid;
+    grid-template-columns: auto 30% ;
+    gap: 20px;
+}
+.Tun2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.im{
+    width: 90%;
+    height: 85%;
+    border: 5px solid black;
+    border-bottom-left-radius: 40%;
+    box-shadow: 10px 10px black;
+}
+.Tun1{
+    display: grid;
+    grid-template-rows: 40% 30% auto;
+    gap: 10px;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+.Tyn1{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.Twn1{
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+}

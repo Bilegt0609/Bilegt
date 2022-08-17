@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+}
+.container{
+    width: 2046px;
+    height: 5300px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1060px 1060px 1060px 1060px 1060px;
+    gap: 10px;
+}
+.a {
+    border: 1px solid red;
+}
