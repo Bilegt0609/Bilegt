@@ -1,42 +1,61 @@
 .Taniltsuulga1{
-    display: grid;
-    grid-template-columns: 5% auto 5%;
+    display: flex;
+    align-items: center
 }
 .Tan1{
-    display: grid;
-    grid-template-rows: 20% auto 10% ;
-    gap: 20px;
+    width: 60%;
+    height: 700px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.Ten1{
-    display: grid;
-    grid-template-columns: auto 30% ;
-    gap: 20px;
-}
-.Tun2{
+.Tan2{
+    width: 40%;
+    height: 700px;
+    margin-right: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .im{
-    width: 90%;
-    height: 85%;
+    width: 80%;
+    height: 70%;
     border: 5px solid black;
-    border-bottom-left-radius: 40%;
-    box-shadow: 10px 10px black;
+    border-bottom-left-radius: 45%;
+    box-shadow: 10px 10px;
 }
-.Tun1{
-    display: grid;
-    grid-template-rows: 40% 30% auto;
-    gap: 10px;
-    margin-left: 300px;
-    margin-right: 100px;
+.Title1{
+    font-size: 30px;
 }
-.Tyn1{
-    display: grid;
-    grid-template-columns: 50% auto;
-}
-.Twn1{
+.title2{
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 25px;
+}
+.title3{
     display: flex;
-    align-items: flex-end;
+    margin-left: -110px ;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.Hi{
+    border: 5px solid gray;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hi1{
+    border: 5px solid black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
 }
