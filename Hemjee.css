@@ -6,7 +6,7 @@
     height: 5300px;
     border: 1px solid black;
     display: grid;
-    grid-template-rows: 650px 650px 1060px 1060px 1060px;
+    grid-template-rows: 650px 800px 800px 1060px 1060px;
 }
 .a {
     border: 1px solid red;
