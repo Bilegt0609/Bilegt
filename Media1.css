@@ -1,0 +1,96 @@
+@media screen and (min-width:700px) and (max-width:1300px){
+    .header{
+        width: 100%;
+    }
+    .main{
+        height: 1800px;
+        margin: 0%;
+    }
+    .subContainer{
+        height: 40%;
+    }
+    .itemDescription{
+        margin: 0%;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemDescription p{
+        width: 100%;
+        height: 30%;
+    }
+    .itemDescription h2{
+        width: 100%;
+    }
+    .ourSolutions{
+        height: 800px;
+    }
+    .ourSolutionElementsContainer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ourSolutionElementsHead{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .ourSolutionElementHead2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+    .button{
+        width: 80%;
+    }
+    .aboutUs{
+        height: 500px;
+    }
+    .descriptionContainer{
+        width: 100%;
+    }
+    .itemImg{
+        height: 60%;
+    }
+    .ourSolutionElement{
+        display: none;
+    }
+    .ourSolutionElementHead2 {
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .ourSolutionElementHead2 img {
+        height: 76.32px;
+      }
+      .ourSolutionElementHead2 h2 {
+        margin-top: 20px;
+        width: 105px;
+        height: 30px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+      }
+      .ourSolutionElementHead2 p {
+        text-align: center;
+        width: 256px;
+        height: 53.1px;
+        margin-top: 20px;
+        color: #4a4e65;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+      }
+}

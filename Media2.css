@@ -1,0 +1,38 @@
+@media screen and (min-width:320px) and (max-width:769px){
+    .headerBottomRight{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .headerBottomLeft{
+        width: 100%;
+        height: 90%;
+        margin-top: -30%;
+    }
+    .headerBottomLeft button{
+        margin-left: 15%;
+    }
+    .hamburger{
+        width: 10%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bar{
+        width: 80%;
+        height: 3px;
+        background-color: white;
+        border: hidden;
+        border-radius: 50px;
+    }
+    .aboutUs{
+        height: 0%;
+        padding: 0%;
+    }
+    .aboutUsMain{
+        display: none;
+    }
+}
